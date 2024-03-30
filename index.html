@@ -1,4 +1,3 @@
-<!-- Checking if present in main or difffernet branch -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -29,6 +28,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#consciousmind">Conscious Mind</a></li>
@@ -129,6 +129,40 @@
                             <p>CGPA: 7.12</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2015 - June 2019</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-5" />
+            <!-- Projects -->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-2">Autoscaling on AWS using Terraform</h3>
+                            <div>In this project, we create AWS resources i.e., VPC, Subnet, Security Groups ,Internet Gateway, 
+                                Route Tables, Load Balancers, Launch Templates, Auto Scaling groups, policies and cloud watch metrics. 
+                                The objective is to dynamically create resources in a declarative way and simulate auto-scaling 
+                                in response to traffic/resource consumption(CPU Utilization>40%).
+                            </div>
+                            <br>
+                            <div><strong>Source Code</strong>: <a href="https://github.com/norfluxX/Autoscaling-on-aws-using-terraform" target="_blank">🏹</a></div>
+                        <br>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-2">WebApp developed using Java, deploy using docker in a DevOps Pipeline</h3>
+                            <div>In this project, the java code is packaged via maven and hosted on the Alpine Tomcat Container. As soon as a commit happens on a branch, web-hook will trigger the build to create new package/artifact and the project will be deployed on Apache Tomcat in Realtime orchestrated by Jenkins pipeline.
+                            </div>
+                            <br>
+                            <div><strong>Source Code</strong>: <a href="https://github.com/norfluxX/Docker-Java-WebApp-DevOps-Pipeline" target="_blank">🏹</a></div>
+                        </div>
+                        <br>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-2">Virtual Host Management with Ansible</h3>
+                            <div>In this project, we will be deploying multiple websites on a single webserver irrespective of the operating system. say, a sample shopping website and a travel website to demonstrate virtual host configuration. The type of virtual host for the project is IP-PORT based.
+                            </div>
+                            <br>
+                            <div><strong>Source Code</strong>: <a href="https://github.com/norfluxX/VHost-Management-with-Ansible" target="_blank">🏹</a></div>
+                        </div>
                     </div>
                 </div>
             </section>
